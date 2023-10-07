@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import KycForm from "./components/KycForm";
+import EmailVerification from "./pages/EmailVerification";
+import Login from "./pages/Login";
+import KycLogin from "./pages/kycLogin";
+import Status from "./pages/status";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="space-y-10">
+      <Login />
+      <Status />
+      <EmailVerification />
+
+      <KycLogin />
+      <KycForm />
     </div>
   );
 }
