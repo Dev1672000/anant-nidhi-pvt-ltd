@@ -1,12 +1,7 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import required modules
 import { Navigation } from "swiper/modules";
 
 const KycLogin = () => {
@@ -20,7 +15,7 @@ const KycLogin = () => {
                 <div className="flex gap-5">
                   <img
                     src="/girl.webp"
-                    alt=" Image"
+                    alt="profile"
                     className="h-[300px]   w-[300px] rounded-3xl "
                   />
                   <h1 className="mt-16">
@@ -50,7 +45,7 @@ const KycLogin = () => {
               <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200  ">
                 <li class="mr-2">
                   <a
-                    href="#"
+                    href="/"
                     aria-current="page"
                     class="inline-block p-4 text-[#152a3d] bg-gray-100 rounded-t-lg active "
                   >
@@ -59,7 +54,7 @@ const KycLogin = () => {
                 </li>
                 <li class="mr-2">
                   <a
-                    href="#"
+                    href="/"
                     class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 "
                   >
                     Manual KYC

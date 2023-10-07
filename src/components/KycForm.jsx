@@ -48,7 +48,7 @@ const KycForm = () => {
                 <div className="">
                   <img
                     src="/girl.webp"
-                    alt=" Image"
+                    alt="profile"
                     className="h-[400px] w-[300px] rounded-3xl ml-3 mt-[-5%] float-right object-cover"
                   />
                 </div>

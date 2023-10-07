@@ -101,7 +101,7 @@ const Login = () => {
                   />
                 </div>
                 <p className="mt-1 flex justify-end">
-                  <a href="#" className="text-[#234666]">
+                  <a href="/" className="text-[#234666]">
                     Forgot Password?
                   </a>
                 </p>

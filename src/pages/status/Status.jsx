@@ -181,7 +181,7 @@ const Status = ({ currentStatus }) => {
                   <div className="mt-16 w-[30%]">
                     <img
                       src="/girl.webp"
-                      alt=" Image"
+                      alt="profile"
                       className="h-[250px] w-[200px] rounded-3xl object-cover"
                     />
                   </div>
